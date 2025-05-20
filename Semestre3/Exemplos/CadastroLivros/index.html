@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Livros</h1>
+    </header>
+    <main>
+        <section id="campos">
+            <form id="formulario"> 
+                <input class="campos" type="text" name="nome" placeholder="Nome do Livro" /> 
+                <input class="campos" type="text" name="paginas" placeholder="Páginas do Livro" /> 
+                <input class="campos" type="text" name="autor" placeholder="Autor do Livro" />
+                <p id="mensagem_form"></p> 
+                <a id="botao_gravar">Salvar</a>
+            </form>
+        </section>
+        <section id="tabela">
+            <div id="header_tabela">
+                <div class="nome">Nome</div>
+                <div class="paginas">Páginas</div>
+                <div class="autor">Autor</div>
+                <div class="acoes">Ações</div>
+            </div>
+            <div id="body_tabela">
+            </div>
+        </section>
+    </main>
+    <footer> Direitos Reservados - Julio Cezar Rutke </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.App {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Abel";
+}
+
+header {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2mm ridge rgba(73, 73, 73, 0.6);
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#campos form {
+    display: flex;
+    flex-direction: column;
+}
+
+#campos form input {
+    padding: 1%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos {
+    width: 50%;
+    border-radius: 4px;
+    border: 0.5mm solid rgba(73, 73, 73, 0.6);
+    margin-bottom: 10px;
+}
+
+#botao_gravar {
+    width: 10%;
+    padding: 1%;
+    cursor: pointer;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 4px;
+    border: 0.5mm solid rgba(227, 221, 221, 0.6);
+    color: antiquewhite;
+}
+
+#botao_gravar:hover {
+    background-color: antiquewhite;
+    color: darkgray;
+}
+
+#header_tabela {
+    width: 100%;
+    display: flex;
+    padding: 1%;
+    color: darkgray;
+    font-weight: bold;
+}
+
+#body_tabela .livro {
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+.nome {
+    flex: 3;
+}
+
+.paginas {
+    flex: 1;
+}
+
+.autor {
+    flex: 3;
+}
+
+.acoes {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.acoes a {
+    cursor: pointer;
+}
+
+.acoes a:hover {
+    color: darkgray;
+}

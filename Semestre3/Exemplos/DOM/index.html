@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        window.onload = function() {
+            var imagens = ["https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg.webp", "https://images.ecycle.com.br/wp-content/uploads/2021/05/03122127/pietro-de-grandi-T7K4aEPoGGk-unsplash-1024x683.jpg"]
+            var controladorImagens = 0;
+            var heading = document.createElement("h1");
+            var headingText = document.createTextNode("Big Head!!");
+
+            heading.appendChild(headingText);
+            document.body.appendChild(heading);
+
+            var img = document.createElement("img");
+            img.setAttribute("src", imagens[controladorImagens]);
+            img.setAttribute("id", "imagem");
+
+            document.body.appendChild(img);
+
+            var botao = document.createElement("button");
+            var textBotao = document.createTextNode("Clique para alterar a imagem");
+
+            botao.appendChild(textBotao);
+            botao.addEventListener("click", alterarImagem);
+
+            document.body.appendChild(botao);
+
+            function alterarImagem(){
+                if(controladorImagens == 0)
+                    controladorImagens++;
+                else
+                    controladorImagens--;
+                var imagemManipulada = document.getElementById("imagem");
+                imagemManipulada.setAttribute("src", imagens[controladorImagens]);
+            }
+        }
+    </script>
+
+</body>
+</html>
