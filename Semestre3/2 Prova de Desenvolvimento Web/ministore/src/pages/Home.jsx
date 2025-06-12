@@ -7,7 +7,10 @@ const Home = () => {
     <div className="home">
       <div className="container">
         <section className="hero">
-          <h1 className='Bemvindo'>Bem-vindo ao </h1><h1 className='PetFinder'>PetFinder!</h1>
+          <h1>
+            <span className='Bemvindo'>Bem-vindo ao </span>
+            <span className='PetFinder'>PetFinder!</span>
+          </h1>
           <p className="hero-description">
             Conectamos voce  pets incriveis que estao procurando um novo lar.
           </p>
