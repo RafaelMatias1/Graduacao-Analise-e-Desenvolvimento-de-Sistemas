@@ -1,0 +1,20 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    margin-top: auto;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #495057;
+    padding: 1rem 0;
+    text-align: center;
+    color: #adb5bd;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      padding: 1.5rem 0;
+    }
+  }

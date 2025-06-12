@@ -1,0 +1,152 @@
+.detalhes-produto {
+    padding: 2rem 0;
+  }
+  
+  .btn-voltar {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-voltar:hover {
+    color: #0056b3;
+  }
+  
+  .produto-detalhes {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .produto-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #f8f9fa;
+  }
+  
+  .produto-titulo {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .produto-preco-destaque {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .produto-content {
+    margin-bottom: 2rem;
+  }
+  
+  .produto-descricao {
+    margin-bottom: 2rem;
+  }
+  
+  .produto-descricao h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .produto-descricao p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+  
+  .sem-descricao {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .sem-descricao p {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .produto-meta {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .produto-meta h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .meta-item {
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  .meta-item strong {
+    color: #333;
+    margin-right: 0.5rem;
+  }
+  
+  .produto-actions {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 2px solid #f8f9fa;
+  }
+  
+  .produto-nao-encontrado {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produto-nao-encontrado h2 {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .produto-nao-encontrado p {
+    color: #888;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 4rem 2rem;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .produto-detalhes {
+      margin: 0 15px;
+      padding: 1.5rem;
+    }
+    
+    .produto-titulo {
+      font-size: 2rem;
+    }
+    
+    .produto-preco-destaque {
+      font-size: 1.8rem;
+    }
+  }

@@ -493,3 +493,63 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY ch.qos.logback.classic 1 0 2025-05-30 10:12:26.824
 !MESSAGE Logback config file: /Users/rafael/Documents/Programacao/GitHub/Graduacao-Analise-e-Desenvolvimento-de-Sistemas/Semestre3/java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+!SESSION 2025-06-05 17:32:12.611 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-05 17:32:14.124
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-05 17:32:15.145
+!MESSAGE Logback config file: /Users/rafael/Documents/Programacao/GitHub/Graduacao-Analise-e-Desenvolvimento-de-Sistemas/Semestre3/java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+!SESSION 2025-06-05 17:40:33.713 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-05 17:40:35.144
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-05 17:40:36.122
+!MESSAGE Logback config file: /Users/rafael/Documents/Programacao/GitHub/Graduacao-Analise-e-Desenvolvimento-de-Sistemas/Semestre3/java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-06-05 17:55:24.451
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2025-06-05 17:55:24.459
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-06-05 17:55:24.459
+!MESSAGE The project description file (.project) for 'Desafio02' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2025-06-11 14:23:12.260 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-11 14:23:13.939
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-11 14:23:14.869
+!MESSAGE Logback config file: /Users/rafael/Documents/Programacao/GitHub/Graduacao-Analise-e-Desenvolvimento-de-Sistemas/Semestre3/java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+!SESSION 2025-06-11 14:39:21.497 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/rafael/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-11 14:39:22.540
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-11 14:39:23.293
+!MESSAGE Logback config file: /Users/rafael/Documents/Programacao/GitHub/Graduacao-Analise-e-Desenvolvimento-de-Sistemas/Semestre3/java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
